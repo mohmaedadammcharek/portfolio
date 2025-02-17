@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+html{
+    scroll-behavior: smooth;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    padding: 1rem 2rem;
+    background-color: #333;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    line-height: 1.8rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+}
+ a{
+    color: white;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+header ul{
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+}
+
+header ul li{
+    padding: 10px;
+}
+
+header h1{
+    font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+header i{
+    color: yellow;
+}
+
+.prem{
+    background-image: url(frame-1.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.im{
+    max-width: 800px;
+    text-align: center;
+    color: white;
+}
+.im h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.im p{
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+ strong{
+    color: yellow;
+}
+
+.offre{
+    padding: 8rem 1rem;
+}
+
+.offre-li{
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.app{
+    border: 1px solid #dddddd;
+    background: white;
+    margin: 1rem;
+}
+
+.img-app{
+    width: 100%;
+}
+.app-text{
+    padding: 20px;
+    text-align: center;
+}
+.app-text p{
+    font-size: 1rem;
+}
+.app-sep{
+    height: 1px;
+    width: 50px;
+    margin: 1rem auto;
+    background:#333 ;
+}
+.titre{
+    font-weight: 300;
+}
+
+.eq{
+    display: flex;
+    flex-flow:  row nowrap;
+    min-height: 600px;
+}
+
+.team{
+    flex: 1;
+    background: url(team.jpg) center center /cover ;
+    
+    
+}
+.team img{
+    width: 100%;
+}
+
+.tem{
+    flex: 1;
+    padding: 2rem;
+    background: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0px;
+    color: white;
+}
+
+.tem h2{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.tem p{
+    font-size: 1rem;
+    line-height: 1.8rem;
+    margin-bottom: 2px;
+}
+
+.avis{
+    padding: 5rem 1rem 5rem 1rem;
+}
+
+.avsa{
+    background: white;
+    border: 1px solid black ;
+    border-radius: 5px;
+    padding: 2rem;
+    display: flex;
+    flex-direction:row-reverse ;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.avs{
+    background: white;
+    border: 1px solid black ;
+    border-radius: 5px;
+    padding: 2rem;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.ecr{
+    padding: 0rem 2rem;
+}
+
+.ecr p{
+    font-weight: 700;
+    margin: 0.2rem;
+}
+.cl{
+    padding: 0rem 2rem;
+
+}
+
+.cl p{
+    font-weight: 700;
+    margin: 0.2rem;
+}
+
+.cl img{
+    width: 70px;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+}
+
+.aa{
+    display: flex;
+  flex-direction: column;
+}
+
+.ect{
+    display: block;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.contact {
+    padding: 10rem 1rem 10rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333
+  }
+  
+  .table {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .table input {
+    background: #333;
+    border: 0;
+    border-bottom: 2px solid #dddddd;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: white;
+    
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn {
+    display: block;
+    margin: 3rem auto;
+    padding: 1rem 2rem;
+    border: 0;
+    border-radius: 30px;
+    background-color: #f1c40f;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: red;
+  }
+  .titr{
+    padding-bottom: 30px;
+  }
+
+  .table h2{
+    background: #333;
+    border: 0;
+    border-bottom: 2px solid #dddddd;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: white;
+    
+    margin-bottom: 30px;
+    
+  }
+
+  footer {
+    background: #444444;
+    padding: 50px;
+    color: white;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
+
+
+
+
