@@ -1,6 +1,10 @@
 html {
     scroll-behavior: smooth;
 }
+body {
+    overflow: hidden;
+}
+
 
 header {
     display: flex;
@@ -128,10 +132,11 @@ aside img {
     transition: all 0.3s ease;
     position: absolute;
     left: 45%;
-    
     margin-top: 3.125rem;
 }
-
+.glissez {
+    margin-bottom: 200px;
+}
 .glissez .button:hover {
     color: white;
     background-color: #0c969c;
