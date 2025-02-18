@@ -9,7 +9,6 @@ body{
     width: 100vw;
 }
 
-
 header {
     display: flex;
     justify-content: space-between;
@@ -136,11 +135,10 @@ aside img {
     transition: all 0.3s ease;
     position: absolute;
     left: 45%;
+    
     margin-top: 3.125rem;
 }
-.glissez {
-    margin-bottom: 200px;
-}
+
 .glissez .button:hover {
     color: white;
     background-color: #0c969c;
@@ -319,3 +317,122 @@ footer p {
     margin-top: 2rem;
 }
 
+/* Rendre le site responsive */
+@media screen and (max-width: 1024px) {
+    .presentation {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .def {
+        margin-left: 0;
+        width: 90%;
+        font-size: 1.2rem;
+    }
+
+    aside img {
+        width: 80%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+
+    .btns {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-left: 0;
+    }
+
+    .glissez .button {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .apropos {
+        margin-left: 5%;
+        margin-right: 5%;
+        height: auto;
+        padding: 2rem;
+    }
+
+    .content, .content2, .content3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content img, .content2 img, .content3 img {
+        width: 60%;
+        margin: 1rem 0;
+    }
+
+    .p1 img, .p2 img {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .bac {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ct {
+        height: auto;
+        padding: 2rem;
+    }
+
+    table input, table textarea {
+        margin-left: 5%;
+        width: 90%;
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+
+    .soumettre {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .autre ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .autre li {
+        margin: 5px 0;
+    }
+
+    .def span {
+        font-size: 2rem;
+    }
+
+    aside img {
+        width: 70%;
+    }
+
+    .glissez .button {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .titlec, .titlep {
+        font-size: 2rem;
+    }
+
+    .soumettre {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}
